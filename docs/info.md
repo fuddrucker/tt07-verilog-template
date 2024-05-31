@@ -14,8 +14,13 @@ You can also include images in this folder and reference them in the markdown. E
 6 bit output with a carry
 
 ## How to test
+## Addition with no carry
 
-Explain how to use your project
+A=0b000001
+IC = 0
+B=0b000001
+O=0b000010
+OC = 0
 
 ## External hardware
 
