@@ -22,5 +22,5 @@ module tt_um_6bitaddr (
   assign uio_out[7] = 0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0};
+  wire _unused = &{ena, clk, rst_n, ui_in[7], 1'b0};
 endmodule
