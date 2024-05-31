@@ -20,7 +20,8 @@ module tt_um_6bitaddr (
   assign uio_oe  = 0;
   assign {uo_out[6], uo_out[5:0]}  = {1'b0, ui_in[5:0]} + {1'b0, uio_in[5:0]} + {6'b000000, ui_in[6]};  // Example: ou_out is the sum of ui_in and uio_in
   assign uo_out[7] = 0;
+  assign uio_out = 8'b00000000;
 
   // List all unused inputs to prevent warnings
-    wire _unused = &{ena, clk, rst_n, ui_in[7], uio_in[6], uio_in[7], 1'b0};
+  wire _unused = &{ena, clk, rst_n, ui_in[7], uio_in[6], uio_in[7], 1'b0};
 endmodule
