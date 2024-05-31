@@ -8,8 +8,10 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
+## 6 Bit Addr: Overview
 
-Explain how your project works
+2x6 bit inputs with a carry
+6 bit output with a carry
 
 ## How to test
 
